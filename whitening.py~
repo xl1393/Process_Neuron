@@ -1,0 +1,6 @@
+from scipy.misc import imread
+import os,sys
+
+img=imread('test.png')
+print type(img)
+print img.shape
